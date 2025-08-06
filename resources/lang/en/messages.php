@@ -20,4 +20,16 @@ return [
    'unAvailabel'=>'UnAvailabel',
    'save' => 'Save',
    'exit'=>'Exit',
+   'language'=> 'Languages',
+   'arabic'=>'اللغة العربية',
+   'english'=>'English',
+   'profile' =>'Profile',
+   'edit_profile'=> 'Edit Profile',
+   'name'=>'Name',
+   'email'=>'Email',
+   'password'=>'Password',
+   'password_confirmation'=>'Password Confirmation',
+   'success'=>'Save Successfully',
+   'error' => 'Some Thing Wrong Try Again Later',
+
 ];
