@@ -37,13 +37,15 @@
                             <span class="avatar avatar-online">
                   <img  style="height: 35px;" src="" alt="avatar"><i></i></span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href=""><i
+                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="{{route('edit.profile')}}"><i
                                     class="ft-user"></i> تعديل الملف الشحصي </a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{route('admin.logout')}}"><i class="ft-power"></i> تسجيل
                                 الخروج </a>
                         </div>
                     </li>
+
+                       
 
                     <li class="dropdown dropdown-notification nav-item">
                         <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-bell"></i>
@@ -229,7 +231,43 @@
                             </li>
                             <li class="dropdown-menu-footer"><a class="dropdown-item text-muted text-center"
                                                                 href="javascript:void(0)">Read all messages</a></li>
-                        </ul>
+                       
+                       
+                       
+                       
+                       
+                                                            </ul>
+                    </li>
+
+                     <li class="dropdown dropdown-user nav-item">
+                        <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                <span class="mr-1">
+                  <span
+                      class="user-name text-bold-700">
+                     
+                     @if(App()->getLocale() === 'ar')
+      <span class="flag-icon flag-icon-eg"></span> {{__('messages.arabic')}}
+    @else
+        <span class="flag-icon flag-icon-us"></span> {{__('messages.english') }}
+    @endif
+                    
+                    
+                    </span>
+                </span>
+                           
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                             @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                             <a class="dropdown-item" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                {{ $properties['native'] }}
+               
+            </a>
+                            
+                         <div class="dropdown-divider"></div>    
+                                   @endforeach
+                                 
+                        </div>
                     </li>
                 </ul>
             </div>
