@@ -31,5 +31,7 @@ return [
    'password_confirmation'=>'Password Confirmation',
    'success'=>'Save Successfully',
    'error' => 'Some Thing Wrong Try Again Later',
+   'hi'=>'Hi',
+   'title'=>'Control Panel'
 
 ];

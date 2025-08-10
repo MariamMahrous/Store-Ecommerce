@@ -18,24 +18,27 @@ class ProfileController extends Controller
 
 
     public function updateProfile(AdminProfileValidate $request){
-//  try{
+ try{
 
      $admin=Admin::find(auth('admin')->user()->id);
-
+    $data = $request->only(['name', 'email']); 
     if($request->filled('password')){
-         $request->merge(['password'=> bcrypt($request->password)]);
+        //  $request->merge(['password'=> bcrypt($request->password)]);
+          $data['password'] = bcrypt($request->password);
     }
 
 
-    unset($request['id']);
-    unset($request['password_confirmation']);
-   $admin->update($request->all());
+    // unset($request['id']);
+    // unset($request['password_confirmation']);
+//    $admin->update($request->all());
+
+    $admin->update($data);
    return redirect()->back()->with(['success'=>__('messages.success')]);
 
-//  }catch(\Exception $ex){
-//         return redirect()->back()->with(['error'=>__('messages.error')]);
+ }catch(\Exception $ex){
+        return redirect()->back()->with(['error'=>__('messages.error')]);
      
-//         }
+       }
    
 
     }

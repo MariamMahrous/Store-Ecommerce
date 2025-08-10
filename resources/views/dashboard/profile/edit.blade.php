@@ -96,9 +96,9 @@
                                                      <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="projectinput1"> {{__('messages.password')}} </label>
-                                                            <input type="password"  id="" value=""
+                                                            <input type="password"  id=""
                                                                    class="form-control"
-                                                                   placeholder="  "
+                                                                   placeholder="  " 
                                                                    name="password">
                                                             @error("password")
                                                             <span class="text-danger">{{$message}}</span>
