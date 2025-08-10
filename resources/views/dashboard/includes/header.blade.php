@@ -10,7 +10,7 @@
                     <a class="navbar-brand" href="index.html">
                         <img class="brand-logo" alt="modern admin logo"
                              src="{{asset('assets/admin/images/logo/logo.png')}}">
-                        <h3 class="brand-text">Modern Admin</h3>
+                        <h3 class="brand-text">{{__('messages.title')}}</h3>
                     </a>
                 </li>
                 <li class="nav-item d-md-none">
@@ -30,7 +30,7 @@
                 <ul class="nav navbar-nav float-right">
                     <li class="dropdown dropdown-user nav-item">
                         <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
-                <span class="mr-1">مرحبا
+                <span class="mr-1">{{__('messages.hi')}}
                   <span
                       class="user-name text-bold-700">  {{auth('admin')->user()->name}}</span>
                 </span>
