@@ -33,4 +33,17 @@ return [
    'error' => 'هناك خطا ما برجاء المحاولة مرة اخرى',
    'hi' => 'مرحبا',
       'title'=>'لوحة التحكم ',
+        'is_active' => 'مفعل',
+   'not_active' =>'غير مفعل ',
+    'slug' => 'الاسم بالرابط',
+   'photo'=>'الصورة',
+   'opertions'=>'الاجراءات',
+      'edit'=>'تعديل ',
+   'delete' =>'حذف',
+    'categoryError' =>'هذا القسم غير موجود',
+       'AllmainCategories'=>'جميع الاقسام الرئيسية ',
+   'mainCategories'=>'الاقسام الرئيسية ',
+     'addMainCategory'=>'اضافة قسم رئيسى',
+   'editMainCategory'=>'تعديل قسم رئيسى',
+   'categoryData' => 'بيانات القسم '
 ];

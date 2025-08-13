@@ -18,6 +18,13 @@ class Category extends Model
      ];
   
 
+     public function scopeParent($query){
+      return $query->whereNull('parent_id');
+     }
+     public function getActive(){
+     return $this->is_active == 1? __('messages.is_active'): __('messages.not_active');
+     }
+
 
 
 }
