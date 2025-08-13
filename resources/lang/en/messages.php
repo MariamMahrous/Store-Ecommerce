@@ -32,6 +32,22 @@ return [
    'success'=>'Save Successfully',
    'error' => 'Some Thing Wrong Try Again Later',
    'hi'=>'Hi',
-   'title'=>'Control Panel'
+   'title'=>'Control Panel',
+   'is_active' => 'Active',
+   'not_active' =>'Not Active',
+   'slug' => 'Slug',
+   'photo'=>'Photo',
+   'opertions'=>'Operations',
+   'edit'=>'Edit',
+   'delete' =>'Delete',
+   'categoryError' =>'This Category Not found',
+   'AllmainCategories'=>'All Main Categories',
+   'mainCategories'=>'Main Categories',
+   'addMainCategory'=>'Add Main Category',
+    'editMainCategory'=>'Edit Main Category',
+   'categoryData' => 'Category Data'
+   
+
+
 
 ];
