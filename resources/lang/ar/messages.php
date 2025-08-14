@@ -43,7 +43,12 @@ return [
     'categoryError' =>'هذا القسم غير موجود',
        'AllmainCategories'=>'جميع الاقسام الرئيسية ',
    'mainCategories'=>'الاقسام الرئيسية ',
-     'addMainCategory'=>'اضافة قسم رئيسى',
+     'addMainCategory'=>'اضافة قسم جديد',
    'editMainCategory'=>'تعديل قسم رئيسى',
-   'categoryData' => 'بيانات القسم '
+   'categoryData' => 'بيانات القسم ',
+      'deletesuccess'=>'تم الحذف بنجاح',
+      'updatesucces'=>'تم التعديل بنجاح',
+       'savecategory'=>'اضافة قسم رئيسى جديد',
 ];
+
+

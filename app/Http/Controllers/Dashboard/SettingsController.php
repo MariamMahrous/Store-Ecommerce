@@ -40,12 +40,12 @@ try{
   $shipping_method->value=$request->value;
   $shipping_method->save();
   DB::commit();
- return redirect()->back()->with(['success'=>'Updated Succesfully']);
+ return redirect()->back()->with(['success'=>__('messages.updatesucces')]);
 }
 catch(\Exception $ex)
  {
  
-   return redirect()->back()->with(['error'=>'Something Wrong Try Again Later']);
+   return redirect()->back()->with(['error'=>__('messages.error')]);
      DB::rollback();
  }
 }
