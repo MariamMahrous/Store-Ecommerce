@@ -33,7 +33,7 @@ class ProfileController extends Controller
 //    $admin->update($request->all());
 
     $admin->update($data);
-   return redirect()->back()->with(['success'=>__('messages.success')]);
+   return redirect()->back()->with(['success'=>__('messages.updatesucces')]);
 
  }catch(\Exception $ex){
         return redirect()->back()->with(['error'=>__('messages.error')]);

@@ -45,7 +45,11 @@ return [
    'mainCategories'=>'Main Categories',
    'addMainCategory'=>'Add Main Category',
     'editMainCategory'=>'Edit Main Category',
-   'categoryData' => 'Category Data'
+   'categoryData' => 'Category Data',
+   'deletesuccess'=>'Deleted Successfully',
+    'updatesucces'=>'Updated Successfully',
+    'savecategory'=>'Add  New Main Category',
+    
    
 
 
