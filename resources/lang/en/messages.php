@@ -49,6 +49,15 @@ return [
    'deletesuccess'=>'Deleted Successfully',
     'updatesucces'=>'Updated Successfully',
     'savecategory'=>'Add  New Main Category',
+    'AllsubCategories'=>'All Sub Categories',
+   'subCategories'=>'Sub Categories',
+   'addSubCategory'=>'Add Sub Category',
+    'editSubCategory'=>'Edit Sub Category',
+     'savesubcategory'=>'Add Sub Category',
+     'selectcategory' => 'Select Main Category',
+     'Pselectcategory'=>'Please Select Main Category',
+     'nameSubcategory' =>'Sub Category Name',
+     'nameMainCat' => 'Main Category Name',
     
    
 

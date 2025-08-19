@@ -49,6 +49,15 @@ return [
       'deletesuccess'=>'تم الحذف بنجاح',
       'updatesucces'=>'تم التعديل بنجاح',
        'savecategory'=>'اضافة قسم رئيسى جديد',
+          'AllsubCategories'=>'جميع الاقسام الفرعية',
+   'subCategories'=>'الاقسام الفرعية ',
+   'addSubCategory'=>'اضافة قسم فرعى',
+    'editSubCategory'=>'تعديل قسم فرعى',
+        'savesubcategory'=>'اضافة قسم فرعى جديد',
+          'selectcategory' => 'اختر القسم الرئيسى',
+        'Pselectcategory'=>'من فضلك اختر القسم',
+         'nameSubcategory' =>'اسم القسم الفرعى',
+         'nameMainCat' => 'القسم الرئيسى الخاص به',
 ];
 
 
