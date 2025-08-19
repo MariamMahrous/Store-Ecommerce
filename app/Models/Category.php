@@ -25,6 +25,12 @@ class Category extends Model
      return $this->is_active == 1? __('messages.is_active'): __('messages.not_active');
      }
 
+    public function scopeChild($query){
+      return $query->whereNotNull('parent_id');
+    }
 
+    public function _parent(){
+      return $this->belongsTo(self::class,'parent_id');
+    }
 
 }
