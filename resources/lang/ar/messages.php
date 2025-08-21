@@ -58,6 +58,16 @@ return [
         'Pselectcategory'=>'من فضلك اختر القسم',
          'nameSubcategory' =>'اسم القسم الفرعى',
          'nameMainCat' => 'القسم الرئيسى الخاص به',
+// Begin Brands
+        'brands'=>'الماركات التجارية',
+     'AllBrands' =>'عرض جميع الماركات ',
+     'addBrands' =>' اضافة ماركة جديدة',   
+     'brandData'=>'بيانات  الماركة التجارية',
+     'brandError' => 'الماركة التجارية غير موجودة',
+     'editBrand'=>'تعديل الماركة التجارية',
+     
+
+// End Brands
 ];
 
 
