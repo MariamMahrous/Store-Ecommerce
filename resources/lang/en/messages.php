@@ -65,7 +65,11 @@ return [
      'brandError' => 'Brand Error Not Found',
      'editBrand'=>'Edit Brand',
  
-    
+   //  TAGS TRANS
+   'tags'=>'Tags',
+   'Alltags'=>'All Tags',
+   'addTag'=>'Add Tag',
+   'editTag'=>'Edit Tag'
    
 
 
