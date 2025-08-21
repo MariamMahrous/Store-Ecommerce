@@ -53,16 +53,16 @@
                 </ul>
             </li>
             <li class="nav-item"><a href=""><i class="la la-male"></i>
-                    <span class="menu-title" data-i18n="nav.dash.main">المتاجر  </span>
+                    <span class="menu-title" data-i18n="nav.dash.main">{{__('messages.brands')}}  </span>
                     <span
-                        class="badge badge badge-success badge-pill float-right mr-2"></span>
+                        class="badge badge badge-success badge-pill float-right mr-2">{{\App\Models\Brand::count()}}</span>
                 </a>
                 <ul class="menu-content">
-                    <li class="active"><a class="menu-item" href=""
-                                          data-i18n="nav.dash.ecommerce"> عرض الكل </a>
+                    <li class="active"><a class="menu-item" href="{{route('admin.brands')}}"
+                                          data-i18n="nav.dash.ecommerce"> {{__('messages.AllBrands')}}</a>
                     </li>
-                    <li><a class="menu-item" href="" data-i18n="nav.dash.crypto">أضافة
-                            متجر  </a>
+                    <li><a class="menu-item" href="{{route('admin.brands.create')}}" data-i18n="nav.dash.crypto">{{__('messages.addBrands')}}
+                              </a>
                     </li>
                 </ul>
             </li>

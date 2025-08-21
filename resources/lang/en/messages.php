@@ -58,6 +58,13 @@ return [
      'Pselectcategory'=>'Please Select Main Category',
      'nameSubcategory' =>'Sub Category Name',
      'nameMainCat' => 'Main Category Name',
+     'brands'=>'Brands',
+     'AllBrands' =>'Show All Brands',
+     'addBrands' =>' Add New Brand',
+     'brandData'=>'Brand Data',
+     'brandError' => 'Brand Error Not Found',
+     'editBrand'=>'Edit Brand',
+ 
     
    
 
