@@ -1,0 +1,83 @@
+<?php
+
+return [
+
+   'total-sales'=>'اجمالى المبيعات',
+      'total-orders'=>'اجمالى الطلبات ',
+       'products-count'=>'عدد المنتجات  ',
+   'clients-count'=>'عدد العملاء ',
+   'settings' => 'الاعدادت',
+   'shipping'=>'وسائل التوصيل',
+    'free-shipping'=>'توصيل مجانى',
+   'local-shipping'=>'توصيل داخلى',
+    'outer-shipping'=>'توصيل خارجى',
+     'home' =>'الرئيسية',
+   'edit_shipping'=>'تعديل وسائل التوصيل',
+      'name' => 'الاسم',
+   'value' => 'قيمة التوصيل',
+    'status'=>'الحالة',
+   'available'=>'مفعل',
+   'unAvailabel'=>'غير مفعل',
+   'save' => 'حفظ',
+   'exit'=>'تراجع',
+    'language'=> 'اللغات',
+   'arabic'=>'اللغة العربية',
+   'english'=>'English',
+   'profile' =>'الملف الشخصى',
+   'edit_profile'=> 'تعديل الملف الشخصى',
+   'name'=>'الاسم',
+   'email'=>'البريد الالكترونى',
+   'password'=>'كلمة المرور الجديدة',
+   'password_confirmation'=>'تأكيد كلمة المرور',
+    'success'=>'تم الحفظ بنجاح',
+   'error' => 'هناك خطا ما برجاء المحاولة مرة اخرى',
+   'hi' => 'مرحبا',
+      'title'=>'لوحة التحكم ',
+        'is_active' => 'مفعل',
+   'not_active' =>'غير مفعل ',
+    'slug' => 'الاسم بالرابط',
+   'photo'=>'الصورة',
+   'opertions'=>'الاجراءات',
+      'edit'=>'تعديل ',
+   'delete' =>'حذف',
+    'categoryError' =>'هذا القسم غير موجود',
+       'AllmainCategories'=>'جميع الاقسام  ',
+   'mainCategories'=>'قسم رئيسي ',
+     'addMainCategory'=>'اضافة قسم جديد',
+   'editMainCategory'=>'تعديل قسم رئيسى',
+   'categoryData' => 'بيانات القسم ',
+      'deletesuccess'=>'تم الحذف بنجاح',
+      'updatesucces'=>'تم التعديل بنجاح',
+       'savecategory'=>'اضافة قسم جديد',
+          'AllsubCategories'=>'جميع الاقسام الفرعية',
+   'subCategories'=>' قسم فرعى ',
+   'addSubCategory'=>'اضافة قسم فرعى',
+    'editSubCategory'=>'تعديل قسم ',
+        'savesubcategory'=>'اضافة قسم فرعى جديد',
+          'selectcategory' => 'اختر القسم الرئيسى',
+        'Pselectcategory'=>'من فضلك اختر القسم',
+         'nameSubcategory' =>'اسم القسم الفرعى',
+         'nameMainCat' => 'القسم الرئيسى الخاص به',
+         'parentCatgory' => 'القسم الخاص به',
+// Begin Brands
+        'brands'=>'الماركات التجارية',
+     'AllBrands' =>'عرض جميع الماركات ',
+     'addBrands' =>' اضافة ماركة جديدة',
+     'brandData'=>'بيانات  الماركة التجارية',
+     'brandError' => 'الماركة التجارية غير موجودة',
+     'editBrand'=>'تعديل الماركة التجارية',
+     'Categories'=>'اقسام المتجر',
+    'parentCatgory' =>'القسم الاب الخاص به',
+
+
+// End Brands
+'tags'=>'العلامات التجارية',
+   'Alltags'=>'جميع العلامات',
+   'addTag'=>'اضافة علامة تجارية',
+   'editTag'=>'تعديل العلامة التجارية'
+
+
+
+];
+
+
