@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Repository implements RepositoryInterface
 {
-   protected  $model;
+    protected  $model;
     public  function __construct(Model $model)
     {
         return $this->model = $model;
@@ -30,13 +30,13 @@ class Repository implements RepositoryInterface
 
     public function update(array $data, $id)
     {
-       $record=$this->find($id);
-       return $record->update($data);
+        $record = $this->find($id);
+        return $record->update($data);
     }
 
     public function delete($id)
     {
-     return $this->model->destroy($id);
+        return $this->model->destroy($id);
     }
 
     /**
@@ -47,14 +47,14 @@ class Repository implements RepositoryInterface
         return $this->model;
     }
 
-    public function setModel(Model $model){
+    public function setModel(Model $model)
+    {
         $this->model = $model;
         return $this;
     }
 
-public function with($relations){
+    public function with($relations)
+    {
         return $this->model->with($relations);
-}
-
-
+    }
 }
