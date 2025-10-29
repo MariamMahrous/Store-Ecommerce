@@ -41,7 +41,7 @@ return [
    'edit'=>'Edit',
    'delete' =>'Delete',
    'categoryError' =>'This Category Not found',
-   'AllmainCategories'=>'All Categories',
+   'AllmainCategories'=>'Show All',
    'mainCategories'=>'Main Category',
    'addMainCategory'=>'Add Category',
     'editMainCategory'=>'Edit Main Category',
@@ -59,7 +59,7 @@ return [
      'nameSubcategory' =>'Sub Category Name',
      'nameMainCat' => 'Main Category Name',
      'brands'=>'Brands',
-     'AllBrands' =>'Show All Brands',
+     'AllBrands' =>'Show All',
      'addBrands' =>' Add New Brand',
      'brandData'=>'Brand Data',
      'brandError' => 'Brand Error Not Found',
@@ -67,12 +67,28 @@ return [
 
    //  TAGS TRANS
    'tags'=>'Tags',
-   'Alltags'=>'All Tags',
+   'Alltags'=>'Show All',
    'addTag'=>'Add Tag',
    'editTag'=>'Edit Tag',
 
 //   Catgeories
 'Categories'=>'Categories',
 'parentCatgory' =>'Parent Catgory',
+
+
+
+ // Begin Products Translate
+   'products'=>'Products',
+   'show_all' =>'Show All' ,
+   'add_product'=>'Add New Product',
+   'productData'=>'General Product Data',
+   'product_name'=>'Product Name',
+   'description'=>'Description',
+   'short_description'=>'Short Description',
+   'choose_category'=>'Choose Categories',
+    'choose_brand'=>'Choose Brand',
+     'choose_tag'=>'Choose Tags',
+
+   // End Products Translate
 
 ];
