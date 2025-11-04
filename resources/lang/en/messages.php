@@ -17,7 +17,7 @@ return [
    'value' => 'Shipping Value',
    'status'=>'Status',
    'available'=>'Available',
-   'unAvailabel'=>'UnAvailabel',
+   'unAvailable'=>'unAvailable',
    'save' => 'Save',
    'exit'=>'Exit',
    'language'=> 'Languages',
@@ -88,6 +88,36 @@ return [
    'choose_category'=>'Choose Categories',
     'choose_brand'=>'Choose Brand',
      'choose_tag'=>'Choose Tags',
+     'allproducts'=>'All Products',
+     'price'=>'Price',
+     'images'=>'Images',
+     'inventory'=>'Inventory',
+     'add_price'=>'Add Price',
+     'product_price'=>'Product Price',
+     'special_price'=>'Special Price',
+     'choose_price'=>'Type Of Price',
+     'Pselectprice'=>'Choose Type Of Price',
+     'precent'=>'Precent',
+     'fixed'=>'Fixed',
+     'special_price_start'=>'Special Price Start',
+      'special_price_end'=>'Special Price End',
+      'stock_management'=>'Stock Management',
+      'sku'=>'Sku',
+      'stock'=>'Manage Stock',
+      'product_status'=> 'Product Status',
+      'qty'=>'Quantity',
+      'yes'=>'Yes',
+      'no'=>'No',
+       'Pselecttype'=>'select type '
+       
+
+     
+
+
+
+     
+
+
 
    // End Products Translate
 
