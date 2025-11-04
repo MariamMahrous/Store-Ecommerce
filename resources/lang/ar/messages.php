@@ -17,7 +17,7 @@ return [
    'value' => 'قيمة التوصيل',
    'status' => 'الحالة',
    'available' => 'مفعل',
-   'unAvailabel' => 'غير مفعل',
+   'unAvailable' => 'غير مفعل',
    'save' => 'حفظ',
    'exit' => 'تراجع',
    'language' => 'اللغات',
@@ -78,6 +78,7 @@ return [
 
    // Begin Products Translate
    'products' => 'المنتجات',
+  'allproducts'=>'جميع المنتحات',
    'show_all' => 'عرض الكل',
    'add_product' => 'اضافة منتج جديد',
    'productData' => 'البيانات الاساسية للمنتج',
@@ -87,6 +88,28 @@ return [
      'choose_category'=>'اختر القسم',
     'choose_brand'=>'اختر الماركة ',
      'choose_tag'=>' اختر العلامات الدلالية',
+       'price'=>'السعر',
+        'images'=>'الصور',
+     'inventory'=>'المستودع',
+        'add_price'=>'اضافة اسعار',
+        'product_price'=>' سعر المنتج',
+        'special_price'=>'سعر خاص ',
+      
+     'choose_price'=>'نوع السعر  ',
+     'Pselectprice'=>'اختر نوع السعر',
+     'precent'=>'متغير',
+     'fixed'=>'ثابت',
+     'special_price_start'=>'تاريخ البداية',
+      'special_price_end'=>'تاريخ النهاية  ',
+          'stock_management'=>'ادارة المستودع',
+      'sku'=>'كود المنتج',
+      'stock'=>' تتبع المستودع',
+      'product_status'=> ' حالة المنتج',
+      'qty'=>'الكمية',
+        'yes'=>'اتاحة التتبع ',
+      'no'=>'عدم اتاحة التتبع',
+      'Pselecttype'=>'اختر النوع',
+
 
 
 

@@ -64,5 +64,9 @@ public function tags(){
     return $this->belongsToMany(Tag::class,'product_tags');
 }
 
+public function getActive(){
+  return $this->is_active == 1 ? __('messages.is_active') : __('messages.not_active');
+    
+}
 
 }
