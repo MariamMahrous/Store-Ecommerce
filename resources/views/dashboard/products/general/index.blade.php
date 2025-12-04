@@ -75,7 +75,7 @@
                                                                     <a href="{{ route('admin.product.setprices', $product->id) }}"
                                                                         class="btn btn-outline-primary btn-min-width box-shadow-3 mr-1 mb-1">{{ __('messages.price') }}</a>
 
-                                                                    <a href="{{ route('admin.categories.edit', $product->id) }}"
+                                                                    <a href="{{ route('admin.product.images', $product->id) }}"
                                                                         class="btn btn-outline-primary btn-min-width box-shadow-3 mr-1 mb-1">{{ __('messages.images') }}</a>
 
 

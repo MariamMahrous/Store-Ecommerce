@@ -116,6 +116,29 @@ try{
 
 }
 
+
+
+public function addImages($product_id){
+   
+   return view('dashboard.products.images.create')->withId($product_id);
+}
+
+
+public function saveImageFolder(Request $request){
+$file=$request->file('dzfile');
+
+$filename=$this->uploadImage('producta',$file);
+return response()->json([
+   'name'=>$filename,
+   'original_name'=>$file->getClientOriginalName(),
+]);
+
+
+}
+
+public function saveImageDb(){
+   
+}
 // End Product Inventory Mehtods
 
 

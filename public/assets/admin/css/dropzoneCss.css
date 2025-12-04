@@ -1,0 +1,44 @@
+/* جعل الصور جنب بعض بشكل طبيعي */
+.dropzone .dz-preview {
+    display: inline-block !important;
+    margin: 10px;
+    vertical-align: top;
+}
+
+/* حجم الصورة يكون ثابت ومظبوط */
+.dropzone .dz-image {
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* إلغاء التفاصيل الطويلة تحت الصورة */
+.dropzone .dz-details {
+    display: none !important;
+}
+/* كل preview image */
+.dropzone .dz-preview {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* اخفاء زرار Remove بشكل افتراضي */
+.dropzone .dz-preview .dz-remove {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 100;
+    background: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+/* يظهر زرار Remove لما تعملي hover على الصورة */
+.dropzone .dz-preview:hover .dz-remove {
+    display: block;
+}

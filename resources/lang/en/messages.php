@@ -108,10 +108,20 @@ return [
       'qty'=>'Quantity',
       'yes'=>'Yes',
       'no'=>'No',
-       'Pselecttype'=>'select type '
-       
+       'Pselecttype'=>'select type ',
+          'images_management'=>'Product Images ',
 
-     
+
+         //  Products Images
+       
+'productsImages' => 'Product Images',
+'selectImages'=>'Upload Images',
+     'attributes'=>'Attributes',
+   
+'add_attributes'=>'Add Attributes',
+'addAttribute'=>'Add New Atttribute',
+'editAttribute'=>'Edit Attribute',
+ 'AttributeError' => 'Attribute  Not Found',
 
 
 

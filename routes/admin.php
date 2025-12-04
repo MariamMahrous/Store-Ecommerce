@@ -86,15 +86,20 @@ Route::group(
             Route::post('price', 'ProductController@storePrice')->name('admin.product.prices');
             Route::get('stock/{id}', 'ProductController@setStock')->name('admin.product.setStock');
             Route::post('stock', 'ProductController@storeStock')->name('admin.product.stock');
+            Route::get('images/{id}', 'ProductController@addImages')->name('admin.product.images');
+            Route::post('images/folder', 'ProductController@saveImageFolder')->name('admin.products.images.store.folder');
+            Route::post('images', 'ProductController@saveImageDb')->name('admin.products.images.store');
          });
-         ############################### End Tags ###########################
+         ############################## Attributes Routes #########################
+         Route::group(['prefix' => 'attributes'], function () {
 
-
-
-
-
-
-
+            Route::get('/', 'AttributesController@index')->name('admin.attributes');
+            Route::get('create', 'AttributesController@create')->name('admin.attributes.create');
+            Route::post('store', 'AttributesController@store')->name('admin.attributes.store');
+            Route::get('edit/{id}', 'AttributesController@edit')->name('admin.attributes.edit');
+            Route::post('update/{id}', 'AttributesController@update')->name('admin.attributes.update');
+            Route::get('delete/{id}', 'AttributesController@destroy')->name('admin.attributes.delete');
+         });
       });
 
 
