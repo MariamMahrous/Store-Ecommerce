@@ -109,10 +109,22 @@ return [
         'yes'=>'اتاحة التتبع ',
       'no'=>'عدم اتاحة التتبع',
       'Pselecttype'=>'اختر النوع',
-
+ 'images_management'=>' صور المنتج ',
 
 
 
    // End Products Translate
+   
+         //  Products Images
+       
+'productsImages' => 'صور المنتج',
+'selectImages'=>'يمكنك رفع اكثر من صورة هنا',
+
+    'attributes'=>'خصائص المنتج',
+   
+'add_attributes'=>'اضافة خصائص ',
+'addAttribute'=>'اضافة خاصية جديدة',
+'editAttribute'=>'تعديل خصائص المنتج',
+ 'AttributeError' => 'هناك خطأ ما',
 
 ];
